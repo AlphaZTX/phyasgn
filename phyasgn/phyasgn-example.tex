@@ -1,0 +1,21 @@
+\documentclass{phyasgn}
+\phyasgn{
+  stuname = 张三,           % 设置学生姓名
+  stunum = 0000011000,      % 设置学号
+  setasgnnum = 1,           % 设置课程次数
+  classname = 测试课程,     % 设置课程名称
+}
+
+\usepackage{listings}
+\lstset{numbers=left,basicstyle=\ttfamily,columns=flexible}
+
+\title{\texttt{phyasgn-examples.tex} 源码}
+\date{}
+
+\begin{document}
+\maketitle
+
+这里我们把本文档的代码直接展示出来:
+\lstinputlisting{phyasgn-example.tex}
+第 2 到 7 行利用 \verb"phyasgn.cls" 提供的接口对文档进行设置.
+\end{document}
